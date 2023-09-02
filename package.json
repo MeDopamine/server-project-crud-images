@@ -9,8 +9,7 @@
     "start-dev": "nodemon index.js",
     "start-prod": "NODE_ENV=production node index.js",
     "start-test": "NODE_ENV=test node index.js",
-    "start-win": "set NODE_ENV=test && node index.js",
-    "start-win-test": "$env:NODE_ENV='test'; node index.js"
+    "start-win": "set NODE_ENV=test && node index.js"
   },
   "keywords": [],
   "author": "",
